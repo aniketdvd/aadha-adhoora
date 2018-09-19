@@ -1,0 +1,56 @@
+@font-face{
+    font-family: boldana;
+    src: url("./../fonts/Bree_Serif/BreeSerif-Regular.ttf");
+}
+.navbar-fixed{
+    position: fixed;
+    width: 100%;
+}
+.navbar-fixed .left{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.navbar-fixed .right{
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.navbar-fixed .right a{
+    padding: 12px;
+    font-size: 20px;
+}
+.ct{
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 20p;
+    width: 80px;
+}
+.upmain{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-family: boldana;
+    color: ghostwhite;
+    font-size: 70px;
+    background: url("./../images/joinbg.jpg");
+    background-size: cover;
+    resize: inherit;
+}
+main{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.card-panel{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.boxed{
+    border: ghostwhite solid 2px;
+}
+footer{
+    text-align: center;
+}
